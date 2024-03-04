@@ -1,0 +1,2 @@
+pnpm commitlint --edit
+pnpm lint-staged --relative

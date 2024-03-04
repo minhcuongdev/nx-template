@@ -39,3 +39,9 @@ testem.log
 Thumbs.db
 
 .nx/cache
+
+.env.dev
+.env.stage
+.env.test
+.env.live
+.env
