@@ -1,0 +1,23 @@
+version: '3.9'
+
+networks:
+  app-networks:
+    driver: bridge
+
+services:
+  db:
+    container_name: db
+    image:
+    environment:
+      POSTGRES_USER:
+      POSTGRES_PASSWORD:
+      PGDATA:
+    volumes:
+
+    ports:
+
+    networks:
+      - app-networks
+    restart: always
+
+volumes:
